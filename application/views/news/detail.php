@@ -38,7 +38,7 @@
             </span></div>
         <marquee class="news-scroll " behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
             <a href="https://hurs.mahidol.ac.th" class="nav-link" target="blank">
-                <h3 class="m-0 p-0 text-dark">Welcome to MUGH | Mahidol University Global Health</h3>
+                <h3 class="m-0 p-0 text-dark">Welcome to AUN-HPN | ASEAN University Network - Health Promotion Network</h3>
             </a>
         </marquee>
 
@@ -70,7 +70,7 @@
                                 <small class="text-muted">View : <?php echo  $row['n_views'] ?> ครั้ง</small>
                             </div>
                         </div>
-                        <img src="https://info-mugh.com/bos/<?= $row['n_image'] ?>" class="w-100" alt="">
+                        <img src="https://info-AUN-HPN.com/bos/<?= $row['n_image'] ?>" class="w-100" alt="">
                         <div id="share-bar" class="p-0 p-sm-3"></div>
                         <div class="my-4 text-justify mx-auto">
                             <p class="m-0"><?php echo  $row['n_detail'] ?></p>

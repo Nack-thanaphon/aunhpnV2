@@ -29,7 +29,7 @@
             </span></div>
         <marquee class="gallery-scroll " behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
             <a href="https://hurs.mahidol.ac.th" class="nav-link" target="blank">
-                <h3 class="m-0 p-0 text-dark">Welcome to MUGH | Mahidol University Global Health</h3>
+                <h3 class="m-0 p-0 text-dark">Welcome to AUN-HPN | ASEAN University Network - Health Promotion Network</h3>
             </a>
         </marquee>
 
@@ -81,7 +81,7 @@
                     <div class="col-12 col-sm-4 m-0 p-0 mb-1 shadow-sm gallery_card ${resp[i].g_date}">
 
                         <div class="card h-100">
-                            <img src="https://info-mugh.com/bos/uploads/${resp[i].g_image}" class="card-img-top" alt="...">
+                            <img src="https://info-AUN-HPN.com/bos/uploads/${resp[i].g_image}" class="card-img-top" alt="...">
                             <div class="card-body ">
                                 <h5 class="special">${resp[i].g_name}</h5>
                                 <p class="text-muted">${resp[i].g_date}</p>

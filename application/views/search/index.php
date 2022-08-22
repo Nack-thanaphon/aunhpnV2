@@ -38,7 +38,7 @@
             </span></div>
         <marquee class="news-scroll " behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
             <a href="https://hurs.mahidol.ac.th" class="nav-link" target="blank">
-                <h3 class="m-0 p-0 text-dark">Welcome to MUGH | Mahidol University Global Health</h3>
+                <h3 class="m-0 p-0 text-dark">Welcome to AUN-HPN | ASEAN University Network - Health Promotion Network</h3>
             </a>
         </marquee>
 
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-12 col-sm-12 border shadow-sm">
 
-                    <div class=" p-2  my-1" >
+                    <div class=" p-2  my-1">
                         <h4 class="pb-3">ผลการค้นหาทั้งหมด : <span class="text-primary"><?= $countresult ?></span> รายการ</h4>
                         <div class="row m-0 p-0">
                             <?php

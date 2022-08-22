@@ -13,30 +13,7 @@ class About extends CI_Controller
         $this->load->view('includes/footer');
     }
 
-    public function ourGoal()
-    {
-        $this->load->view('includes/header');
-        $this->load->view('includes/navbar');
-        $this->load->view('includes/script');
-        $this->load->view('about/about_us.php');
-        $this->load->view('includes/footer');
-    }
-    public function ourScope()
-    {
-        $this->load->view('includes/header');
-        $this->load->view('includes/navbar');
-        $this->load->view('includes/script');
-        $this->load->view('about/ourScope.php');
-        $this->load->view('includes/footer');
-    }
-    public function ourPublcian()
-    {
-        $this->load->view('includes/header');
-        $this->load->view('includes/navbar');
-        $this->load->view('includes/script');
-        $this->load->view('about/ourPublcian.php');
-        $this->load->view('includes/footer');
-    }
+   
     public function contactus()
     {
         $this->load->view('includes/header');
@@ -45,6 +22,33 @@ class About extends CI_Controller
         $this->load->view('about/contact_us.php');
         $this->load->view('includes/footer');
     }
+    public function hur()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('includes/navbar');
+        $this->load->view('includes/script');
+        $this->load->view('about/hur.php');
+        $this->load->view('includes/footer');
+    }
+    public function hur_detail()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('includes/navbar');
+        $this->load->view('includes/script');
+        $this->load->view('about/hur_detail.php');
+        $this->load->view('includes/footer');
+    }
+    public function iac()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('includes/navbar');
+        $this->load->view('includes/script');
+        $this->load->view('about/iac.php');
+        $this->load->view('includes/footer');
+    }
+
+
+
     public function sendmail()
     {
 
@@ -57,7 +61,7 @@ class About extends CI_Controller
             'protocol' => 'smtp',
             'smtp_host' => 'smtp3.netcore.co.in',
             'smtp_port' => 25,
-            'smtp_user' => 'mugh.mahidol@gmail.com',
+            'smtp_user' => 'AUN-HPN.mahidol@gmail.com',
             'smtp_pass' => 'f6e64gq6',
             'charset' => 'utf-8',
             'wordwrap' => TRUE
@@ -65,7 +69,7 @@ class About extends CI_Controller
 
         $this->load->library('email', $config);
         $this->email->from($email);
-        $this->email->to('mugh.mahidol@gmail.com');
+        $this->email->to('AUN-HPN.mahidol@gmail.com');
         $this->email->cc($email);
         $this->email->bcc('');
 
@@ -75,7 +79,7 @@ class About extends CI_Controller
         if (!$this->email->send()) {
             // Generate error
             echo "Email is not sent!!";
-        }else{
+        } else {
             redirect(base_url('/'));
         }
         // echo $this->email->print_debugger();

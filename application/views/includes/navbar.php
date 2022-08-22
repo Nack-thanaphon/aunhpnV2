@@ -1,76 +1,156 @@
+<style>
+    .navbar .megamenu {
+        padding: 1rem;
+    }
 
-<nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
-        <a href="https://flowbite.com" class="flex items-center">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+    /* ============ desktop view ============ */
+    @media all and (min-width: 992px) {
+
+        .navbar .has-megamenu {
+            position: static !important;
+        }
+
+        .navbar .megamenu {
+            left: 0;
+            right: 0;
+            width: 100%;
+            margin-top: 0;
+        }
+
+    }
+
+    /* ============ desktop view .end// ============ */
+
+    /* ============ mobile view ============ */
+    @media(max-width: 991px) {
+
+        .navbar.fixed-top .navbar-collapse,
+        .navbar.sticky-top .navbar-collapse {
+            overflow-y: auto;
+            max-height: 90vh;
+            margin-top: 10px;
+        }
+    }
+
+    /* ============ mobile view .end// ============ */
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex justify-content-between " href="<?= site_url('./') ?>">
+            <!-- <img class="d-none d-sm-block" src="./img/logo/logo2.png" alt=""> -->
+            <img width="60px" height="60px" class=" d-block " src="<?= base_url('issets/img/logo/logo.png') ?>" alt="">
+            <div class="navbar-detail text-white my-auto mx-2">
+                <h4 class="p-0 m-0" style="font-size: 1.7rem;">AUN-HPN</h4>
+                <p class="p-0 m-0 d-none d-sm-block" style="font-size: 1rem;">ASEAN University Network - Health Promotion Network</p>
+            </div>
         </a>
-        <button data-collapse-toggle="mega-menu-full" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-        </button>
-        <div id="mega-menu-full" class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1">
-            <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <li>
-                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+        <div class="d-flex flex-column">
+            <ul class="navbar-nav topbar">
+                <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
+                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" data-bs-toggle="dropdown">About </a>
+                    <div class="dropdown-menu megamenu" role="menu">
+                        <ul>
+                            <li><a href="http://">HISTORY OF AUN-HPN</a></li>
+                            <li><a href="http://">MISSION OBJECTIVE & OUTCOME</a></li>
+                            <li><a href="http://">SCOPE OF WORKS</a></li>
+                            <li><a href="http://">OUR MEMBERS</a></li>
+                            <li>NEWS
+                                <ul>
+                                    <li><a href="http://">NEWS</a></li>
+                                    <li><a href="http://">E-NEWSLETTER</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="http://">F/Q</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li>
-                    <button id="mega-menu-full-dropdown-button" data-collapse-toggle="mega-menu-full-dropdown" class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Company <svg class="ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
+                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" data-bs-toggle="dropdown"> Our Work </a>
+                    <div class="dropdown-menu megamenu" role="menu">
+                        This is content of megamenu. <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </div>
                 </li>
-                <li>
-                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
+                <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
+                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" data-bs-toggle="dropdown"> Our People </a>
+                    <div class="dropdown-menu megamenu" role="menu">
+                        lore555
+                    </div>
                 </li>
-                <li>
-                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Resources</a>
+                <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
+                    <a class="nav-link  text-uppercase text-white" href="<?= base_url('/Download') ?>"> Resource </a>
+
                 </li>
-                <li>
-                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
+                    <a class="nav-link  text-uppercase text-white" href="<?= base_url('/about/contactus') ?>"> Contact </a>
                 </li>
+                <li class="nav-item dropdown has-megamenu  d-sm-flex flex-sm-row d-none">
+                    <a class="nav-link text-white text-uppercase" href="www.info-aun-hpn.com" target="blank"> Login </a>
+                    <!-- <div class="dropdown-menu megamenu" role="menu">
+                        lore555
+                    </div> -->
+                </li>
+
             </ul>
+            <div class="d-flex  col-12 d-none d-sm-block m-0 p-0 ">
+                <div class="input-group ">
+                    <input type="text" class="form-control w-50" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn input-group-text" id="basic-addon2">
+                            <p class="m-0"><i class="fas fa-search"></i></p>
+                        </button>
+                    </div>
+                    <button class="btn btn  text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="mega-menu-full-dropdown" class="mt-1 bg-gray-50 border-gray-200 shadow-sm md:bg-white border-y dark:bg-gray-800 dark:border-gray-600">
-        <div class="grid py-5 px-4 mx-auto max-w-screen-xl text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
-            <ul>
-                <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold">Online Stores</div>
-                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold">Segmentation</div>
-                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold">Marketing CRM</div>
-                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
-                    </a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold">Online Stores</div>
-                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold">Segmentation</div>
-                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold">Marketing CRM</div>
-                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
-                    </a>
-                </li>
-            </ul>
+
+        <button class="btn btn d-block d-sm-none text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="offcanvas offcanvas-end bg-white " id="navbarOffcanvas" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+                <ul class="navbar-nav ml-auto  d-flex flex-column  ">
+                    <li class="nav-item ">
+                        <a href="./" class="nav-link text-left  text-dark">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="<?= site_url('Accadamic') ?>" class="nav-link text-left  text-dark">Our People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= site_url('About') ?>" class="nav-link text-left text-dark">History</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="<?= site_url('Download') ?>" class="nav-link text-left text-dark">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= site_url('gallery') ?>" class="nav-link text-left text-dark">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= site_url('about/contactus') ?>" class="nav-link text-left text-dark">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= site_url('linkto') ?>" class="nav-link text-left text-dark">Link to</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.info-AUN-HPN.com/" target="blank" class="nav-link text-left text-dark">Login</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </div>
 </nav>

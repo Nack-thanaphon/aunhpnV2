@@ -5,7 +5,7 @@
             </span></div>
         <marquee class="news-scroll " behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
             <a href="https://hurs.mahidol.ac.th" class="nav-link" target="blank">
-                <h3 class="m-0 p-0 text-dark">Welcome to MUGH | Mahidol University Global Health</h3>
+                <h3 class="m-0 p-0 text-dark">Welcome to AUN-HPN | ASEAN University Network - Health Promotion Network</h3>
             </a>
         </marquee>
 
@@ -17,7 +17,7 @@
 <div class="row m-0 p-0">
     <div class="col-12 py-5 bg-primary text-center">
         <h1 class="p-0 m-0 text-white ">ABOUT US</h1>
-        <h6 class="text-white mt-3 p-0">Mahidol University Global Health Coordination Unit</h6>
+        <h6 class="text-white mt-3 p-0">ASEAN University Network - Health Promotion Network Coordination Unit</h6>
     </div>
     <div class="col-12 my-2 ">
         <div class=" shadow-sm p-3 rounded">
@@ -25,7 +25,7 @@
             <ul>
                 <li>To strengthen capacities of all parties and advocate global health policy especially in the region</li>
             </ul>
-          
+
             <h3 class="fw-bold">MISSION</h3>
             <ul>
                 <li>To create a platform for Global Health in Mahidol University and international partnership</li>
@@ -48,11 +48,11 @@
                 </li>
                 <li>
                     <span class="text-priamry">Research:</span>
-                    MUGH partners and engages in research collaborative works on Global Health by generating insights, synthesizing Global Health-related information, and facilitating the development of research works on Global health.
+                    AUN-HPN partners and engages in research collaborative works on Global Health by generating insights, synthesizing Global Health-related information, and facilitating the development of research works on Global health.
                 </li>
                 <li>
                     <span class="text-priamry">Connection:</span>
-                    MUGH aims to build partnership and collaboration among relevant partners and stakeholders on Global Health at the national, regional, and global levels to contribute to developing and advocating the Global Health Policy.
+                    AUN-HPN aims to build partnership and collaboration among relevant partners and stakeholders on Global Health at the national, regional, and global levels to contribute to developing and advocating the Global Health Policy.
                 </li>
             </ul>
         </div>
