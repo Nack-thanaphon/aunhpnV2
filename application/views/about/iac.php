@@ -121,11 +121,101 @@
                 <h3>More Information</h3>
                 <ul>
                     <li>For more on member eligibility, responsibilities, and becoming an associate member, please click here for further information. </li>
-                    <li>The AUN–HPN Secretariat, through its Steering Committee, approves an application at its discretion based on AUN–HPN policies and eligible criteria endorsed by the AUN–HPN International Advisory Committee.  </li>
+                    <li>The AUN–HPN Secretariat, through its Steering Committee, approves an application at its discretion based on AUN–HPN policies and eligible criteria endorsed by the AUN–HPN International Advisory Committee. </li>
                 </ul>
             </div>
 
         </div>
+    </div>
+    <div class="col-12 my-2 ">
+        <div class="row my-3 p-0">
+            <div class="col-12">
+                <h1 class="text-uppercase fw-bold text-center text-primary">healthy university framework</h1>
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center ">
+                <img src="<?= base_url('issets/img/iac/Healthy University Framework.jpg') ?>" class="w-75 p-3 " alt="">
+            </div>
+            <div class="col-12 col-sm-6 my-auto">
+                <h1 class="pb-3 fw-bold">Healthy University Framework</h1>
+                <h4 class="pb-3">in 2017, Heathy University Framework was published,being the refernce guide for universities in health promotion at the university level</h4>
 
+            </div>
+        </div>
+    </div>
+    <div class="col-12 my-2 ">
+        <img src="<?= base_url('issets/img/iac/iac.jpg') ?>" class="w-100 p-3 " alt="">
+    </div>
+    <div class="col-12">
+        <div class="row m-auto d-flex justify-content-center my-5 py-5  p-0 m">
+            <div class="col-12 col-sm-4 text-sm-end border-end">
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-4 ">
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+                <h4>INDONESIA</h4>
+                <ul class="list-group m-5 list-group-numbered">
+                    <li class="list-none">Universitas Airlangga</li>
+                    <li class="list-none">Universitas Gadjah Mada</li>
+                    <li class="list-none">Universitas Indonesia</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 my-2 ">
+        <div class="row my-3 p-0">
+            <div class="col-12">
+                <h1 class="text-uppercase fw-bold text-center text-primary">Mission Goal and Objectives</h1>
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center ">
+                <img src="<?= base_url('issets/img/iac/iacc.png') ?>" class="w-75 p-3 " alt="">
+            </div>
+            <div class="col-12 col-sm-6 my-auto">
+                <h1 class="pb-3 fw-bold">Healthy University Framework</h1>
+                <h4 class="pb-3">in 2017, Heathy University Framework was published,being the refernce guide for universities in health promotion at the university level</h4>
+
+            </div>
+        </div>
     </div>
 </div>
