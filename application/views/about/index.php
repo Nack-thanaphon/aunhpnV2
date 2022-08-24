@@ -21,13 +21,13 @@
             </div>
             <div class="col-12 col-sm-7 p-3">
                 <h3 class="pb-3 fw-bold">History</h3>
-                <p >1986 - The Ottawa Charter for Health Promotion set the international principles of health promotion and inspired countries around the world to focus on public health, areas for priority action, and commit to health promotion</p>
-                <p >1992 - 4th ASEAN Summit urged member states to promote "Human resource development so as to further strengthen the existing network of leading universities and institutions of higher learning in the region"</p>
-                <p >1995 - ASEAN University Network (AUN)was established</p>
-                <p >2014 - AUN-HPN was established as thematic network of AUN, and has been serving as a regional network of people and universities working towards a better and healthier society.</p>
+                <p>1986 - The Ottawa Charter for Health Promotion set the international principles of health promotion and inspired countries around the world to focus on public health, areas for priority action, and commit to health promotion</p>
+                <p>1992 - 4th ASEAN Summit urged member states to promote "Human resource development so as to further strengthen the existing network of leading universities and institutions of higher learning in the region"</p>
+                <p>1995 - ASEAN University Network (AUN)was established</p>
+                <p>2014 - AUN-HPN was established as thematic network of AUN, and has been serving as a regional network of people and universities working towards a better and healthier society.</p>
                 <h3 class="pb-3 fw-bold">Vision</h3>
-                <p >ASEAN Universities are leading institutions in promoting health within universities and beyond.</p>
-                <h3 class="pb-3 fw-bold">Mission</h3>
+                <p>ASEAN Universities are leading institutions in promoting health within universities and beyond.</p>
+                <h3 class="pb-3 fw-bold" id="mission">Mission</h3>
                 <ul>
                     <li>To serve as a platform for ASEAN higher education institutions for collaboration among
                         themselves and with other key stakeholders for the purpose of health promotion in the
@@ -80,7 +80,7 @@
         </div>
     </div>
     <div class="card-header my-5">
-        <h1 class="fw-bold text-center text-primary text-uppercase py-2">Scope Of Work</h1>
+        <h1 class="fw-bold text-center text-primary text-uppercase py-2" id="scope">Scope Of Work</h1>
     </div>
     <div class="col-12 m-0 py-2">
         <img src="<?= ('issets/img/about/scopeofwork.jpg') ?>" class="w-100" alt="">

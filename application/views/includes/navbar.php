@@ -51,9 +51,28 @@
                     <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" data-bs-toggle="dropdown">About </a>
                     <div class="dropdown-menu megamenu" role="menu">
                         <ul>
+                            <li><a href="<?= base_url('about') ?>">HISTORY OF AUN-HPN</a></li>
+                            <li><a href="#mission">MISSION OBJECTIVES & OUTCOMES</a></li>
+                            <li><a href="#scope">SCOPE OF WORK</a></li>
+                            <li><a href="<?= base_url('about') ?>">OUR MEMBERS</a></li>
+                            <li>NEWS
+                                <ul>
+                                    <li><a href="<?= base_url('about') ?>">NEWS</a></li>
+                                    <li><a href="<?= base_url('about') ?>">E-NEWSLETTER</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="<?= base_url('about/iac') ?>#scope">F/Q</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
+                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" data-bs-toggle="dropdown"> Our Work </a>
+                    <div class="dropdown-menu megamenu" role="menu">
+                        <ul>
                             <li><a href="http://">HISTORY OF AUN-HPN</a></li>
-                            <li><a href="http://">MISSION OBJECTIVE & OUTCOME</a></li>
-                            <li><a href="http://">SCOPE OF WORKS</a></li>
+                            <li><a href="http://">MISSION OBJECTIVES & OUTCOMES</a></li>
+                            <li><a href="http://">SCOPE OF WORK</a></li>
                             <li><a href="http://">OUR MEMBERS</a></li>
                             <li>NEWS
                                 <ul>
@@ -67,20 +86,8 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
-                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" data-bs-toggle="dropdown"> Our Work </a>
-                    <div class="dropdown-menu megamenu" role="menu">
-                        This is content of megamenu. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </div>
-                </li>
-                <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
-                    <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" data-bs-toggle="dropdown"> Our People </a>
-                    <div class="dropdown-menu megamenu" role="menu">
-                        lore555
-                    </div>
+                    <a class="nav-link text-uppercase text-white" href="#"> Our People </a>
+
                 </li>
                 <li class="nav-item dropdown has-megamenu d-sm-flex flex-sm-row d-none">
                     <a class="nav-link  text-uppercase text-white" href="<?= base_url('/Download') ?>"> Resource </a>
@@ -99,7 +106,7 @@
             </ul>
             <div class="d-flex  col-12 d-none d-sm-block m-0 p-0 ">
                 <div class="input-group ">
-                    <input type="text" class="form-control w-50" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control w-50" placeholder="News | Events | Gallery " aria-label="News | Events | Gallery " aria-describedby="basic-addon2">
                     <div class="input-group-append">
                         <button class="btn btn input-group-text" id="basic-addon2">
                             <p class="m-0"><i class="fas fa-search"></i></p>
